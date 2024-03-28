@@ -1,0 +1,86 @@
+h1.title{
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+li{
+	float: left;
+	border-right: 0px solid #bbb;
+}
+
+li:last-child{
+    border-right: none;
+}
+
+ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+}
+
+li a{
+	display: block;
+	text-decoration: none;
+	padding: 15px;
+	color: whitesmoke;
+}
+
+body {
+		background-image: url("http://172.16.100.11/tsin2024/merouane/Projet%20Site%20Web/images/Img-Index.png");
+		background-color: #bbb;
+	  }
+
+#div_1 { position:absolute; top: 50px; left: 50px;}
+
+.rectangle {
+	position: absolute;
+	top: 140px;
+	right: 9px;
+	width  : 300px;
+	height : 630px;
+	border-top: 2px white solid;
+	border-bottom: 2px white solid;
+	border-right: 2px white solid;
+	border-left: 2px white solid;
+	background : black;
+}
+
+.imgrec1 {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+}
+
+.imgrec2 {
+	position: absolute;
+	top: 325px;
+	right: 24px;
+}
+
+.rectext {
+	color: #bbb;
+	text-align: left;
+	position: absolute;
+	top: 190px;
+	left: 24px;
+	font-size: xx-small;
+}
+
+.rectext2 {
+	color: #bbb;
+	text-align: left;
+	position: absolute;
+	top: 493px;
+	left: 24px;
+	font-size: xx-small;
+}
+
+footer.copyright{
+	position: relative;
+	font-size: 13px;
+	top: 610px;
+
+}
+
